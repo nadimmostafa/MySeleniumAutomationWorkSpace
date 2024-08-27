@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parameter-to-testMethod]">
+  <test thread-count="5" name="para(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="language" value="english"/>
+    <parameter name="platform" value="window"/>
+    <classes>
+      <class name="org.nadim.dataproviderParameter.TC001_ReadDataFromXMLToTestMethod">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- org.nadim.dataproviderParameter.TC001_ReadDataFromXMLToTestMethod -->
+    </classes>
+  </test> <!-- para(failed) -->
+</suite> <!-- Failed suite [parameter-to-testMethod] -->

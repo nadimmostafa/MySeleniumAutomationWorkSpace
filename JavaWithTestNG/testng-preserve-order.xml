@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Reserve-test-class-order">
+	<test name="Mytest" preserve-order="false">
+		<classes>
+			<class name="org.nadim.testscripts.TC009_TestNGDependentTestMethod"></class>
+			<class name="org.nadim.testscripts.TC001_SumTwoNumbers"></class>
+		</classes>
+	</test>
+	
+	<test name="Re-testing" enabled="false">
+		<classes>
+			<class name="org.nadim.testscripts.TC009_TestNGDependentTestMethod"></class>
+			<class name="org.nadim.testscripts.TC001_SumTwoNumbers"></class>
+		</classes>
+	</test>
+</suite>

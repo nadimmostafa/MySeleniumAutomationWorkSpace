@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel-Execution" parallel="tests">
+	<test name="p-1">
+		<classes>
+			<class name="org.nadim.dataproviderParameter.TC002_TestNGParallelExecution1"></class>
+		</classes>
+	</test>
+	<test name="p-2">
+		<classes>
+			<class name="org.nadim.dataproviderParameter.TC003_TestNGParallelExecution2"></class>
+		</classes>
+	</test>
+</suite>

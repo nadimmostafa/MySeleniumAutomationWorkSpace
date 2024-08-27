@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke-Testing-Suite">
+	<test name="Smoke-Testig">
+		<classes>
+			<class name="org.nadim.testscripts.TC004_TestNG_BeforeAndAfterMethod"></class>
+			<class name="org.nadim.testscripts.TC005_TestNG_BeforeAndAfterClass"></class>
+		</classes>
+	</test>
+</suite>

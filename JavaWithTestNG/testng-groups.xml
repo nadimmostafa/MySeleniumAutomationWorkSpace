@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group-testing">
+	<test name="Regration-test">
+		<groups>
+			<define name="all">
+				<include name="re-testing"></include>
+				<include name="monky-testing"></include>
+			</define>
+			<define name="myTest">
+				<include name="regration-testing"></include>
+			</define>
+			<run>
+				<include name="all"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="org.nadim.testscripts.TC008_TestNGGroupTesting"></class>
+		</classes>
+	</test>
+</suite>

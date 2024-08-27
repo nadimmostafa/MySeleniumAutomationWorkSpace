@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parameter-to-testMethod">
+	<test name="para">
+		<parameter name="browser" value="chrome" />
+		<parameter name="platform" value="window" />
+		<parameter name="language" value="english" />
+		<classes>
+			<class name="org.nadim.dataproviderParameter.TC001_ReadDataFromXMLToTestMethod"/>
+		</classes>
+	</test>
+</suite>
