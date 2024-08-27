@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="crossbrowser-testingSuite" parallel="tests">
+	<test name="chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="org.nadim.testng.crossbrowsertesting.TC00_CrossBrowserTestingFramework"></class>
+		</classes>
+	</test>
+	
+	<test name="firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class
+				name="org.nadim.testng.crossbrowsertesting.TC00_CrossBrowserTestingFramework"></class>
+		</classes>
+	</test>
+</suite>
