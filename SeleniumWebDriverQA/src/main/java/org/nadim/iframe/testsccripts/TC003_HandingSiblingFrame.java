@@ -5,6 +5,7 @@ package org.nadim.iframe.testsccripts;
 // back to main frame then switch to f2 sibling frame
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.TargetLocator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 

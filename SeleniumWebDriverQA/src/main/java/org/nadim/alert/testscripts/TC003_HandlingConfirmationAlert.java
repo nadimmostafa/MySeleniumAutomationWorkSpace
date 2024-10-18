@@ -36,7 +36,8 @@ public class TC003_HandlingConfirmationAlert {
 		
 		//Cancel alert
 		alert.dismiss();
-		Thread.sleep(20000);
+		Thread.sleep(2000);
+		//main page operation
 		WebElement resultTxt = driver.findElement(By.id("result"));
 		System.out.println(resultTxt.getText());
 		driver.close();

@@ -1,5 +1,7 @@
 package org.nadim.dropdown.testscripts;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,7 +18,11 @@ public class TC001_HandlingTraditionalDropDown {
 		WebElement dropdown = driver.findElement(By.id("drop1"));
 		Select select = new Select(dropdown);
 		select.selectByVisibleText("doc 3");
+		List<WebElement> options = select.getOptions();
 		
+		for(WebElement e:options) {
+			System.out.println(e.getText());
+		}
 		driver.close();
 	}
 

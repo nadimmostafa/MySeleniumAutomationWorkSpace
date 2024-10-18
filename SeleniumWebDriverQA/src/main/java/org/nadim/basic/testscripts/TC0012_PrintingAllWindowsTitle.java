@@ -4,6 +4,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TC0012_PrintingAllWindowsTitle {
@@ -14,7 +15,8 @@ public class TC0012_PrintingAllWindowsTitle {
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		
-		driver.findElement(By.linkText("Blogger")).click();
+		WebElement clickElement = driver.findElement(By.linkText("Blogger"));
+		clickElement.click();
 		Thread.sleep(3000);
 		
 		driver.findElement(By.linkText("Open a popup window")).click();

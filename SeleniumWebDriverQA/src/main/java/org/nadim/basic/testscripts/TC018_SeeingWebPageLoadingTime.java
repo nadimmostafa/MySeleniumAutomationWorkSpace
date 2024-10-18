@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 //suppose My web site home page takes 4 seconds to load if we set explicitly time limit to 2 seconds
 // then we will get TimeoutExecption
-public class TC018_SetingWebPageLoadingTime {
+public class TC018_SeeingWebPageLoadingTime {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();

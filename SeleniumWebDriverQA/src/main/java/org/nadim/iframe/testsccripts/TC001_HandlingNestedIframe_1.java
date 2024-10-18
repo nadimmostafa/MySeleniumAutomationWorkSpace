@@ -11,7 +11,7 @@ public class TC001_HandlingNestedIframe_1 {
 		driver.manage().window().maximize();
 		driver.get("https://letcode.in/frame");
 		
-		driver.switchTo().frame("firstFr");
+		driver.switchTo().frame("firstFr"); //using name attribute
 		driver.findElement(By.name("fname")).sendKeys("Asif");
 		driver.findElement(By.name("lname")).sendKeys("Iqbal");
 		//driver.switchTo().defaultContent();

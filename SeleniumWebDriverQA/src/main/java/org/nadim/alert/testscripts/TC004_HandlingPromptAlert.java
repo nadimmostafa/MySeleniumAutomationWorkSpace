@@ -27,7 +27,7 @@ public class TC004_HandlingPromptAlert {
 		alert.sendKeys("Hello");
 
 		alert.accept();
-		Thread.sleep(20000);
+		Thread.sleep(2000);
 		WebElement resultTxt = driver.findElement(By.id("result"));
 		System.out.println(resultTxt.getText());
 		

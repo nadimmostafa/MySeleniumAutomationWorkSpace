@@ -24,7 +24,6 @@ public class TC004_HandlingBootStrapDropdown {
 				element.click();
 			}
 		}
-
 	}
 
 }

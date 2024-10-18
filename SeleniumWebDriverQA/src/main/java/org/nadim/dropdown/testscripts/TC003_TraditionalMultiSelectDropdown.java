@@ -16,10 +16,12 @@ public class TC003_TraditionalMultiSelectDropdown {
 		driver.get("https://omayo.blogspot.com/");
 		
 		Select select = new Select(driver.findElement(By.id("multiselect1")));
+	
 		select.selectByVisibleText("Volvo");
 		select.selectByVisibleText("Swift");
 		select.selectByVisibleText("Audi");
 		
+		System.out.println(select.getFirstSelectedOption().getText());
 		Thread.sleep(2000);
 		//retrieve all selected value
 		List<WebElement> allSelectedOptions = select.getAllSelectedOptions();
@@ -27,6 +29,12 @@ public class TC003_TraditionalMultiSelectDropdown {
 			System.out.println(allOption.getText());
 		}
 		
+		//retrieve all selected de-selected values of option tag
+		List<WebElement> options = select.getOptions();
+		
+		for(WebElement e:options) {
+			System.out.println(e.getText());
+		}
 		
 		// Deselect the select item 
 		select.deselectByValue("swiftx");
