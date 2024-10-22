@@ -27,7 +27,7 @@ public class TC003_StaticTablePrintingTableBodyData {
 				
 			}
 			
-			System.out.println("======= Row ========");
+			System.out.println("======= Row "+i+" ========");
 		}
 		
 		driver.close();
